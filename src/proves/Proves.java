@@ -12,11 +12,11 @@ public class Proves {
     public static void main(String[] args) {
         Proves proves = new Proves();
 //        proves.provaPilaArrayDeque();
-//        proves.provaCoaArrayDQueue();
+        proves.provaCoaArrayDQueue();
 //        proves.provaHashSet();
 //        proves.provaHashSet2();
 //        proves.provaHashMap();
-        proves.provaEnumeracions();
+//        proves.provaEnumeracions();
     }
 
     public void provaPilaArrayDeque() {
@@ -193,10 +193,10 @@ public class Proves {
         ArrayList<Preferencia3> llista = new ArrayList<>();
         llista.add(new Preferencia3(1, "Tumbet", TipusPlat.PRINCIPAL));
         llista.add(new Preferencia3(2, "Pa i alloli", TipusPlat.ENTRANT));
-        llista.add(new Preferencia3(3, "Gató", TipusPlat.POSTRE));
+        llista.add(new Preferencia3(3, "Gato�", TipusPlat.POSTRE));
         llista.add(new Preferencia3(4, "Escaldums", TipusPlat.PRINCIPAL));
         llista.add(new Preferencia3(5, "Olives", TipusPlat.ENTRANT));
-        llista.add(new Preferencia3(6, "Ensaïmada de crema", TipusPlat.POSTRE));
+        llista.add(new Preferencia3(6, "Ensaimada de crema", TipusPlat.POSTRE));
         for (Preferencia3 pref : llista) {
             if (pref.getTipus() == TipusPlat.POSTRE) {
                 System.out.println(pref);
